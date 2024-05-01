@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denúncias contra Dengue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body background="img/mosquito.png">
+    <header>
+        <h1>Denúncia contra a Dengue</h1>
+    </header>
+    
+
+    <form action="processar-dados.php" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="exemplo@provedor.com" required>
+        <label for="numero">Número:</label>
+        <input type="number" name="numero" placeholder="Digite seu número" required>
+        <label for="endereço">Endereço:</label>
+        <input type="text" name="endereço" placeholder="Digite seu endereço" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" rows="5" placeholder="Faça sua Denúncia" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>

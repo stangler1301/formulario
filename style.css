@@ -1,0 +1,60 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(./img/mosquito.png);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-color: rgb(205, 230, 240);
+}
+
+form {
+    background: #e6e6e6;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+   
+}
+
+input {
+    width: 90%;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 15px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: rgb(13, 166, 13);
+}
+
+.mensagens {
+    display: flex;
+    flex-flow: column;
+    background: #e6e6e6;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
